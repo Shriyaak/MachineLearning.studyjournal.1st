@@ -11,7 +11,7 @@ target set (Y)
 If the missing data is not much or does not participate as much in the analysis then: 
 - Delete the missing values  or 
 - Replace the missing values by the average or median or 
-- The most frequent value (categorical data) of all the values in the column in which the data is missing #expects all the columns of matrix of features (X)  with numerical values , i.e. all numerical columns must  be included  
+- Insert the most frequent value (categorical data) of all the values in the column in which the data is missing #except all the columns of matrix of features (X)  with numerical values , i.e. all numerical columns must  be included  
 
 ### Step 4: ENCODING CATEGORICAL DATA
 - One Hot Encoding: A technique used to convert categorical data into a format that can be provided to machine learning algorithms to improve performance. In one-hot encoding, each unique category (or value) in a categorical feature is transformed into a binary vector
