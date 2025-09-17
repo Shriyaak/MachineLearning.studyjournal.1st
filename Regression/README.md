@@ -1,6 +1,6 @@
 ## SIMPLE LINEAR REGRESSION: 
 In this project, I begin by exploring Simple Linear Regression, which is a foundational regression technique used to model the relationship between a single independent variable (X1) and a dependent variable (y). The goal of this model is to find the best-fitting line that predicts y based on the value of X1. <br/>
-y = β0 +β1 x1 +β2 x2 + ⋯ +βp xp + ϵ <br/> 
+y = β0 +β1 x1 + ϵ <br/> 
 where,  <br/> 
 y = dependent variable( target/ output)  <br/> 
 β0 = intercept (the value of y when all xi = 0 ) <br/> 
